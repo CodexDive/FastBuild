@@ -1,0 +1,75 @@
+{
+  "dockerfile_json": {
+    "base_image": "meizw/aa:11",
+    "maintainer": "mzw",
+    "image_installer_config": {
+      "python_env": {
+        "present": "",
+        "update": true,
+        "target": "Python-3.7.14.tgz",
+        "install_loc": "/usr/local/dros/python"
+      },
+      "package_manager_installer_config": {
+        "installer_name": "apt",
+        "install": {
+          "present": "apt 1.6.14 (amd64)",
+          "update": false,
+          "target": "",
+          "install_loc": ""
+        },
+        "source": {
+          "installer_name": "",
+          "type": "ali",
+          "file_name": "ubuntu-18.04.list"
+        },
+        "software_list": [],
+        "delimiter": "",
+        "python_version": []
+      },
+      "pip_installer_config": {
+        "installer_name": "pip",
+        "install": {
+          "present": "",
+          "update": false,
+          "target": "",
+          "install_loc": ""
+        },
+        "source": {
+          "installer_name": "",
+          "type": "",
+          "file_name": ""
+        },
+        "software_list": [],
+        "delimiter": "",
+        "python_version": []
+      },
+      "conda_installer_config": {
+        "installer_name": "conda",
+        "install": {
+          "present": "",
+          "update": false,
+          "target": "",
+          "install_loc": ""
+        },
+        "source": {
+          "installer_name": "",
+          "type": "",
+          "file_name": ""
+        },
+        "software_list": [],
+        "delimiter": "",
+        "python_version": []
+      },
+      "webSSHSecret": "j7yC3VEVGFAJIRmnel+XVA==",
+      "jupyterLabSecret": "j7yC3VEVGFAJIRmnel+XVA=="
+    }
+  },
+  "image_data": {
+    "task_name": "mzw",
+    "callback_url": "http://pre.alkaidos.cn/api/app/ai-image/harbor/image/callback",
+    "target_image_name": "meizw/aa:v12",
+    "image_desc": "mzzzzzw",
+    "webSSHSecret": "j7yC3VEVGFAJIRmnel+XVA==",
+    "jupyterLabSecret": "j7yC3VEVGFAJIRmnel+XVA=="
+  }
+}

@@ -1,0 +1,13 @@
+python_version=$(python --version 2>&1 | cut -d' ' -f2)
+if [ "$(echo "$python_version 3.7" | awk '{print ($1 >= $2)}')" -eq 1 ]; then
+    echo "Python version is greater than or equal to 3.7"
+else
+    echo "Python version is less than 3.7"
+fi
+
+
+
+
+
+python_version=$(python --version | awk '{print $2}' | cut -d '.' -f 1,2,3)
+echo "$python_version > 3.7" | bc

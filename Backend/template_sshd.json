@@ -1,0 +1,72 @@
+{
+  "dockerfile_json": {
+    "base_image": "ubuntu:18.04",
+    "maintainer": "sqh",
+    "image_installer_config": {
+      "python_env": {
+        "present": "",
+        "update": false,
+        "target": "Python-3.7.14.tgz",
+        "install_loc": "/usr/local/dros/python"
+      },
+      "package_manager_installer_config": {
+        "installer_name": "apt",
+        "install": {
+          "present": "apt 1.6.14 (amd64)",
+          "update": false,
+          "target": "",
+          "install_loc": ""
+        },
+        "source": {
+          "installer_name": "",
+          "type": "ali",
+          "file_name": "ubuntu-18.04.list"
+        },
+        "software_list": [],
+        "delimiter": "",
+        "python_version": []
+      },
+      "pip_installer_config": {
+        "installer_name": "pip",
+        "install": {
+          "present": "",
+          "update": false,
+          "target": "",
+          "install_loc": ""
+        },
+        "source": {
+          "installer_name": "",
+          "type": "",
+          "file_name": ""
+        },
+        "software_list": [],
+        "delimiter": "",
+        "python_version": []
+      },
+      "conda_installer_config": {
+        "installer_name": "conda",
+        "install": {
+          "present": "",
+          "update": false,
+          "target": "",
+          "install_loc": ""
+        },
+        "source": {
+          "installer_name": "",
+          "type": "",
+          "file_name": ""
+        },
+        "software_list": [],
+        "delimiter": "",
+        "python_version": []
+      }
+    }
+  },
+  "task_data": {
+    "task_name": "10.101.12.127-admin-1679478440801",
+    "target_image_name": "10.101.12.128/admin/sqh-ubuntu:v1",
+    "callback_url": "http://alkaidos.cn/api/app/dros-ic-platform/harbor/image/callback"
+  },
+  "webSSHSecret": "j7yC3VEVGFAJIRmnel+XVA==",
+  "jupyterLabSecret": "qkrhxQmWOe5kvpJpplvTuQ=="
+}

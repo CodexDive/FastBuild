@@ -1,0 +1,14 @@
+[Unit]
+Description=FastBuild Service, A Tool used for building Docker Images quickly which can handle Source Management, Python Environment Management, Package dependency Management, at the same time, can also handle virtual environment management.
+After=network.service
+[Service]
+Type=simple
+User=root
+Group=root
+# 更新main.py所在目录
+WorkingDirectory=/home/sqh/FastBuild
+# 更新为虚拟环境所在python /home/sqh/FastBuild/fastbuild/bin/python
+ExecStart=/home/sqh/FastBuild/fastbuild/bin/python main.py
+Restart=always
+[Install]
+WantedBy=multi-user.target

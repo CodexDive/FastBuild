@@ -1,0 +1,1050 @@
+2023-10-20 11:23:54 139828914581888-MainThread INFO task.py:263 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-20 11:23:56 139828337608448-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-20 11:23:56 139828337608448-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1697772234258，任务进程号:1335791，将数据库中状态置为STARTED
+2023-10-20 11:23:59 139886119141760-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-20 11:24:02 139886119141760-MainThread INFO task.py:429 init_python_environment() : 本次FastBuild构建不需要安装Python3，因此无需初始化
+2023-10-20 11:24:02 139886119141760-MainThread INFO task.py:340 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-20 11:24:02 139886119141760-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-10-20 11:24:02 139886119141760-MainThread INFO task.py:294 build_image() : 10.101.12.128/admin/sqh-ubuntu:v2镜像开始构建， 时间: 2023-10-20 11:24:02
+2023-10-20 11:25:13 139886119141760-MainThread INFO task.py:146 push() : 开始推送镜像...
+2023-10-20 11:25:13 139886119141760-MainThread INFO task.py:321 _target_image_size_valid() : 10.101.12.128/admin/sqh-ubuntu:v2校验镜像大小， 时间: 2023-10-20 11:25:13
+2023-10-20 11:25:13 139886119141760-MainThread INFO task.py:323 _target_image_size_valid() : 镜像大小为0.25G
+2023-10-20 11:25:13 139886119141760-MainThread INFO task.py:331 push_image() : 10.101.12.128/admin/sqh-ubuntu:v2镜像开始推送， 时间: 2023-10-20 11:25:13
+2023-10-20 11:30:10 140710545113472-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-20 11:30:13 140709898217216-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-20 11:30:13 140709898217216-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1697772610847，任务进程号:1339008，将数据库中状态置为STARTED
+2023-10-20 11:30:16 140142977302912-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-20 11:30:19 140142977302912-MainThread INFO task.py:430 init_python_environment() : 本次FastBuild构建不需要安装Python3，因此无需初始化
+2023-10-20 11:30:19 140142977302912-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-20 11:30:19 140142977302912-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-20 11:30:19 140142977302912-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/sqh-ubuntu:v2镜像开始构建， 时间: 2023-10-20 11:30:19
+2023-10-20 11:30:20 140142977302912-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-20 11:30:20 140142977302912-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/sqh-ubuntu:v2校验镜像大小， 时间: 2023-10-20 11:30:20
+2023-10-20 11:30:20 140142977302912-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为0.25G
+2023-10-20 11:30:20 140142977302912-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/sqh-ubuntu:v2镜像开始推送， 时间: 2023-10-20 11:30:20
+2023-10-20 14:38:10 140461003051392-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-20 14:38:11 140460060309248-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-20 14:38:11 140460060309248-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1697783890269，任务进程号:1435422，将数据库中状态置为STARTED
+2023-10-20 14:38:15 140479713554816-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-20 14:38:19 140479713554816-MainThread INFO task.py:444 init_python_environment() : 本次FastBuild构建不需要安装Python3，因此无需初始化
+2023-10-20 14:38:19 140479713554816-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-20 14:38:19 140479713554816-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-20 14:38:19 140479713554816-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/sqh-ubuntu:v3镜像开始构建， 时间: 2023-10-20 14:38:19
+2023-10-20 14:38:20 140479713554816-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-20 14:38:20 140479713554816-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/sqh-ubuntu:v3校验镜像大小， 时间: 2023-10-20 14:38:20
+2023-10-20 14:38:20 140479713554816-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为0.25G
+2023-10-20 14:38:20 140479713554816-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/sqh-ubuntu:v3镜像开始推送， 时间: 2023-10-20 14:38:20
+2023-10-20 14:38:51 140460043523840-ThreadPoolExecutor-0_5 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-20 14:38:51 140460043523840-ThreadPoolExecutor-0_5 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1697783890269对应的进程对象:1697783890269
+2023-10-20 14:41:46 140461003051392-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-20 14:41:47 140459498260224-ThreadPoolExecutor-0_13 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-20 14:41:47 140459498260224-ThreadPoolExecutor-0_13 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1697784106879，任务进程号:1436973，将数据库中状态置为STARTED
+2023-10-20 14:41:50 140341988495744-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-20 14:41:53 140341988495744-MainThread INFO task.py:444 init_python_environment() : 本次FastBuild构建不需要安装Python3，因此无需初始化
+2023-10-20 14:41:53 140341988495744-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-20 14:41:53 140341988495744-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-20 14:41:53 140341988495744-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/sqh-ubuntu:v3镜像开始构建， 时间: 2023-10-20 14:41:53
+2023-10-20 14:41:54 140341988495744-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-20 14:41:54 140341988495744-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/sqh-ubuntu:v3校验镜像大小， 时间: 2023-10-20 14:41:54
+2023-10-20 14:41:54 140341988495744-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为0.25G
+2023-10-20 14:41:54 140341988495744-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/sqh-ubuntu:v3镜像开始推送， 时间: 2023-10-20 14:41:54
+2023-10-20 14:42:51 140459506652928-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-20 14:42:51 140459506652928-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1697784106879对应的进程对象:1697784106879
+2023-10-20 15:40:58 140020681712000-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-20 15:41:01 140019865466624-ThreadPoolExecutor-0_4 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-20 15:41:01 140019865466624-ThreadPoolExecutor-0_4 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1697787658771，任务进程号:1464352，将数据库中状态置为STARTED
+2023-10-20 15:41:04 139891143393664-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-20 15:41:07 139891143393664-MainThread INFO task.py:446 init_python_environment() : 本次FastBuild构建不需要安装Python3，因此无需初始化
+2023-10-20 15:41:07 139891143393664-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-20 15:41:07 139891143393664-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-20 15:41:07 139891143393664-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/sqh-ubuntu:v3镜像开始构建， 时间: 2023-10-20 15:41:07
+2023-10-20 15:41:08 139891143393664-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-20 15:41:08 139891143393664-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/sqh-ubuntu:v3校验镜像大小， 时间: 2023-10-20 15:41:08
+2023-10-20 15:41:08 139891143393664-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为0.25G
+2023-10-20 15:41:08 139891143393664-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/sqh-ubuntu:v3镜像开始推送， 时间: 2023-10-20 15:41:08
+2023-10-20 15:41:36 140019893270272-ThreadPoolExecutor-0_1 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-20 15:41:36 140019893270272-ThreadPoolExecutor-0_1 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1697787658771对应的进程对象:1697787658771
+2023-10-20 15:54:41 139863485809024-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-20 15:54:45 139861734430464-ThreadPoolExecutor-0_19 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-20 15:54:45 139861734430464-ThreadPoolExecutor-0_19 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1697788481970，任务进程号:1470371，将数据库中状态置为STARTED
+2023-10-20 15:54:47 139624002412928-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-20 15:54:51 139624002412928-MainThread INFO task.py:446 init_python_environment() : 本次FastBuild构建不需要安装Python3，因此无需初始化
+2023-10-20 15:54:51 139624002412928-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-20 15:54:51 139624002412928-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-20 15:54:51 139624002412928-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/sqh-ubuntu:v3镜像开始构建， 时间: 2023-10-20 15:54:51
+2023-10-20 15:54:52 139624002412928-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-20 15:54:52 139624002412928-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/sqh-ubuntu:v3校验镜像大小， 时间: 2023-10-20 15:54:52
+2023-10-20 15:54:52 139624002412928-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为0.25G
+2023-10-20 15:54:52 139624002412928-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/sqh-ubuntu:v3镜像开始推送， 时间: 2023-10-20 15:54:52
+2023-10-20 15:55:25 139862377223936-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-20 15:55:25 139862377223936-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1697788481970对应的进程对象:1697788481970
+2023-10-20 16:48:50 140619975016832-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-20 16:48:50 140618563053312-ThreadPoolExecutor-0_10 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-20 16:48:50 140618563053312-ThreadPoolExecutor-0_10 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1697791730695，任务进程号:1495804，将数据库中状态置为STARTED
+2023-10-20 16:48:53 139790602826112-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-20 16:48:56 139790602826112-MainThread INFO task.py:446 init_python_environment() : 本次FastBuild构建不需要安装Python3，因此无需初始化
+2023-10-20 16:48:57 139790602826112-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-20 16:48:57 139790602826112-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-20 16:48:57 139790602826112-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/sqh-ubuntu:v4镜像开始构建， 时间: 2023-10-20 16:48:57
+2023-10-20 16:48:57 139790602826112-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-20 16:48:57 139790602826112-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/sqh-ubuntu:v4校验镜像大小， 时间: 2023-10-20 16:48:57
+2023-10-20 16:48:58 139790602826112-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为0.25G
+2023-10-20 16:48:58 139790602826112-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/sqh-ubuntu:v4镜像开始推送， 时间: 2023-10-20 16:48:58
+2023-10-20 17:00:45 139663040770432-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-20 17:00:45 139661867480832-ThreadPoolExecutor-0_6 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-20 17:00:45 139661867480832-ThreadPoolExecutor-0_6 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1697792445218，任务进程号:1501118，将数据库中状态置为STARTED
+2023-10-20 17:00:48 140408079401344-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-20 17:00:54 140408079401344-MainThread INFO task.py:446 init_python_environment() : 本次FastBuild构建不需要安装Python3，因此无需初始化
+2023-10-20 17:00:54 140408079401344-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-20 17:00:54 140408079401344-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-20 17:00:54 140408079401344-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/sqh-ubuntu:v4镜像开始构建， 时间: 2023-10-20 17:00:54
+2023-10-20 17:00:55 140408079401344-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-20 17:00:55 140408079401344-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/sqh-ubuntu:v4校验镜像大小， 时间: 2023-10-20 17:00:55
+2023-10-20 17:00:55 140408079401344-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为0.25G
+2023-10-20 17:00:55 140408079401344-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/sqh-ubuntu:v4镜像开始推送， 时间: 2023-10-20 17:00:55
+2023-10-20 17:03:10 139661280253696-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-20 17:03:10 139661280253696-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1697792445218对应的进程对象:1697792445218
+2023-10-23 11:19:43 140230852911488-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-23 11:19:45 140229138708224-ThreadPoolExecutor-0_13 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-23 11:19:45 140229138708224-ThreadPoolExecutor-0_13 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698031183640，任务进程号:3186974，将数据库中状态置为STARTED
+2023-10-23 11:19:48 139908702323072-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-23 11:19:52 139908702323072-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-23 11:19:53 139908702323072-MainThread INFO task.py:342 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-23 11:19:53 139908702323072-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-23 11:19:53 139908702323072-MainThread INFO task.py:296 build_image() : 10.101.12.128/admin/mzw:v1镜像开始构建， 时间: 2023-10-23 11:19:53
+2023-10-23 11:24:16 139908702323072-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-23 11:24:16 139908702323072-MainThread INFO task.py:323 _target_image_size_valid() : 10.101.12.128/admin/mzw:v1校验镜像大小， 时间: 2023-10-23 11:24:16
+2023-10-23 11:24:16 139908702323072-MainThread INFO task.py:325 _target_image_size_valid() : 镜像大小为1.13G
+2023-10-23 11:24:16 139908702323072-MainThread INFO task.py:333 push_image() : 10.101.12.128/admin/mzw:v1镜像开始推送， 时间: 2023-10-23 11:24:16
+2023-10-23 11:29:25 140230187271936-ThreadPoolExecutor-0_2 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1698031183640已经不处于运行状态,强制将任务ID:1698031183640从状态:STARTED更新至BUILD_ABORT
+2023-10-23 11:30:25 140230170486528-ThreadPoolExecutor-0_4 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-23 11:30:25 140230170486528-ThreadPoolExecutor-0_4 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698031183640对应的进程对象:1698031183640
+2023-10-23 12:21:51 139786893345152-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-23 12:21:55 139786308241152-ThreadPoolExecutor-0_1 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-23 12:21:55 139786308241152-ThreadPoolExecutor-0_1 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698034911171，任务进程号:3213875，将数据库中状态置为STARTED
+2023-10-23 12:21:58 139805285515648-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-23 12:22:01 139805285515648-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-23 12:22:01 139805285515648-MainThread INFO task.py:342 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-23 12:22:01 139805285515648-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-23 12:22:01 139805285515648-MainThread INFO task.py:296 build_image() : 10.101.12.128/admin/mzw:v1镜像开始构建， 时间: 2023-10-23 12:22:01
+2023-10-23 12:22:03 139805285515648-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-23 12:22:03 139805285515648-MainThread INFO task.py:323 _target_image_size_valid() : 10.101.12.128/admin/mzw:v1校验镜像大小， 时间: 2023-10-23 12:22:03
+2023-10-23 12:22:03 139805285515648-MainThread INFO task.py:325 _target_image_size_valid() : 镜像大小为1.13G
+2023-10-23 12:22:03 139805285515648-MainThread INFO task.py:333 push_image() : 10.101.12.128/admin/mzw:v1镜像开始推送， 时间: 2023-10-23 12:22:03
+2023-10-23 12:29:33 140296826373888-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:29 release_problem_task_resource() : 此刻FastBuild数据库中正在运行的构建任务id: 1698034911171, 但FastBuild系统中找不到对应的进程，强制将任务ID:1698034911171从状态:STARTED更新至BUILD_ABORT
+2023-10-23 16:42:52 140658099794304-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-23 16:42:57 140657159042816-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-23 16:42:57 140657159042816-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698050572604，任务进程号:3325837，将数据库中状态置为STARTED
+2023-10-23 16:43:00 140275754480000-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-23 16:43:01 140275754480000-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '6', '9')
+2023-10-23 16:43:01 140275754480000-MainThread INFO task.py:342 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-10-23 16:43:01 140275754480000-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-23 16:43:01 140275754480000-MainThread INFO task.py:296 build_image() : 10.101.12.128/admin/sqh-ubuntu:v4镜像开始构建， 时间: 2023-10-23 16:43:01
+2023-10-23 16:43:03 140275754480000-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-23 16:43:03 140275754480000-MainThread INFO task.py:333 push_image() : 10.101.12.128/admin/sqh-ubuntu:v4镜像开始推送， 时间: 2023-10-23 16:43:03
+2023-10-23 16:44:02 140656580208384-ThreadPoolExecutor-0_15 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-23 16:44:02 140656580208384-ThreadPoolExecutor-0_15 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698050572604对应的进程对象:1698050572604
+2023-10-24 14:34:36 140108990792064-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-20.04.list
+2023-10-24 14:36:52 140108990792064-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-20.04.list
+2023-10-24 14:40:41 140191540269440-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-24 14:40:45 140190215567104-ThreadPoolExecutor-0_6 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-24 14:40:45 140190215567104-ThreadPoolExecutor-0_6 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698129641263，任务进程号:3900516，将数据库中状态置为STARTED
+2023-10-24 14:40:48 140452535423360-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-24 14:40:48 140452535423360-MainThread INFO task.py:421 init_conda_environment() : 由于需要安装conda的软件，需要更新update为True， 之前的update参数为: False
+2023-10-24 14:40:48 140452535423360-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '6', '9')
+2023-10-24 14:41:00 140452535423360-MainThread INFO task.py:342 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'pip.conf', 'get-pip.py', '.condarc', 'Anaconda3-5.3.1-Linux-x86_64.sh', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-24 14:41:00 140452535423360-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-24 14:41:00 140452535423360-MainThread INFO task.py:296 build_image() : 10.101.12.128/admin/sqh-ubuntu:v7镜像开始构建， 时间: 2023-10-24 14:41:00
+2023-10-24 14:44:10 140679606941440-ThreadPoolExecutor-0_11 INFO schedule_update_task.py:29 release_problem_task_resource() : 此刻FastBuild数据库中正在运行的构建任务id: 1698129641263, 但FastBuild系统中找不到对应的进程，强制将任务ID:1698129641263从状态:STARTED更新至BUILD_ABORT
+2023-10-24 14:44:40 140681040920960-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-20.04.list
+2023-10-24 14:45:10 139935605977472-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-20.04.list
+2023-10-24 14:46:19 139736091443584-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-20.04.list
+2023-10-24 14:47:16 139736091443584-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-24 14:47:16 139735100004096-ThreadPoolExecutor-0_17 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-24 14:47:16 139735100004096-ThreadPoolExecutor-0_17 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698130036757，任务进程号:3903321，将数据库中状态置为STARTED
+2023-10-24 14:47:19 139960143184256-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-24 14:47:20 139960143184256-MainThread INFO task.py:421 init_conda_environment() : 由于需要安装conda的软件，需要更新update为True， 之前的update参数为: False
+2023-10-24 14:47:20 139960143184256-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '6', '9')
+2023-10-24 14:47:26 139960143184256-MainThread INFO task.py:342 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'pip.conf', 'get-pip.py', '.condarc', 'Anaconda3-5.3.1-Linux-x86_64.sh', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-24 14:47:26 139960143184256-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-24 14:47:26 139960143184256-MainThread INFO task.py:296 build_image() : 10.101.12.128/admin/sqh-ubuntu:v5镜像开始构建， 时间: 2023-10-24 14:47:26
+2023-10-24 14:58:25 139960143184256-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-24 14:58:25 139960143184256-MainThread INFO task.py:333 push_image() : 10.101.12.128/admin/sqh-ubuntu:v5镜像开始推送， 时间: 2023-10-24 14:58:25
+2023-10-24 14:59:16 139735497946880-ThreadPoolExecutor-0_2 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698130036757已经不处于运行状态,强制将任务ID:1698130036757从状态:STARTED更新至BUILD_ABORT
+2023-10-24 15:00:16 139735141967616-ThreadPoolExecutor-0_4 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-24 15:00:16 139735141967616-ThreadPoolExecutor-0_4 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698130036757对应的进程对象:1698130036757
+2023-10-24 15:05:55 140007549481344-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-24 15:05:55 140006588929792-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-24 15:05:55 140006588929792-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698131155505，任务进程号:3911248，将数据库中状态置为STARTED
+2023-10-24 15:05:58 140623128707456-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-24 15:05:58 140623128707456-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '6', '9')
+2023-10-24 15:05:58 140623128707456-MainThread INFO task.py:342 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'pip.conf', 'get-pip.py', '.condarc', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-24 15:05:58 140623128707456-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-24 15:05:58 140623128707456-MainThread INFO task.py:296 build_image() : 10.101.12.128/admin/sqh-ubuntu:v6镜像开始构建， 时间: 2023-10-24 15:05:58
+2023-10-24 15:06:00 140623128707456-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-24 15:06:00 140623128707456-MainThread INFO task.py:333 push_image() : 10.101.12.128/admin/sqh-ubuntu:v6镜像开始推送， 时间: 2023-10-24 15:06:00
+2023-10-24 15:06:25 140006563751680-ThreadPoolExecutor-0_6 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698131155505已经不处于运行状态,强制将任务ID:1698131155505从状态:STARTED更新至BUILD_ABORT
+2023-10-24 15:07:25 140006052058880-ThreadPoolExecutor-0_10 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-24 15:07:25 140006052058880-ThreadPoolExecutor-0_10 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698131155505对应的进程对象:1698131155505
+2023-10-24 17:11:50 140174098080128-MainThread INFO task.py:265 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-24 17:11:52 140172205213440-ThreadPoolExecutor-0_18 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-24 17:11:52 140172205213440-ThreadPoolExecutor-0_18 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698138710868，任务进程号:3967620，将数据库中状态置为STARTED
+2023-10-24 17:11:55 140324205576576-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-24 17:11:55 140324205576576-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '6', '9')
+2023-10-24 17:11:56 140324205576576-MainThread INFO task.py:342 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-10-24 17:11:56 140324205576576-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-24 17:11:56 140324205576576-MainThread INFO task.py:296 build_image() : 10.101.12.128/admin/sqh-ubuntu:v8镜像开始构建， 时间: 2023-10-24 17:11:56
+2023-10-24 17:11:56 140324205576576-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-24 17:11:56 140324205576576-MainThread INFO task.py:333 push_image() : 10.101.12.128/admin/sqh-ubuntu:v8镜像开始推送， 时间: 2023-10-24 17:11:56
+2023-10-24 17:12:37 140173295740672-ThreadPoolExecutor-0_2 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698138710868已经不处于运行状态,强制将任务ID:1698138710868从状态:STARTED更新至BUILD_ABORT
+2023-10-25 13:59:21 140590419407232-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-25 13:59:24 140588699608832-ThreadPoolExecutor-0_14 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-25 13:59:24 140588699608832-ThreadPoolExecutor-0_14 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698213561812，任务进程号:319777，将数据库中状态置为STARTED
+2023-10-25 13:59:27 140053891453312-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 13:59:28 140053891453312-MainThread INFO task.py:440 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-25 13:59:28 140053891453312-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-10-25 13:59:28 140053891453312-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 13:59:28 140053891453312-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v2镜像开始构建， 时间: 2023-10-25 13:59:28
+2023-10-25 13:59:30 140053891453312-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 13:59:30 140053891453312-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v2镜像开始推送， 时间: 2023-10-25 13:59:30
+2023-10-25 14:00:09 140589228087040-ThreadPoolExecutor-0_8 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698213561812已经不处于运行状态,强制将任务ID:1698213561812从状态:STARTED更新至BUILD_ABORT
+2023-10-25 14:01:09 140589194516224-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-25 14:01:09 140589194516224-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698213561812对应的进程对象:1698213561812
+2023-10-25 14:02:07 140590419407232-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-25 14:02:09 140589244872448-ThreadPoolExecutor-0_6 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-25 14:02:09 140589244872448-ThreadPoolExecutor-0_6 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698213727970，任务进程号:320943，将数据库中状态置为STARTED
+2023-10-25 14:02:12 140011860238720-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 14:02:27 140590419407232-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-25 14:02:29 140589219694336-ThreadPoolExecutor-0_9 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供4构建进程
+2023-10-25 14:02:29 140589219694336-ThreadPoolExecutor-0_9 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698213747706，任务进程号:321104，将数据库中状态置为STARTED
+2023-10-25 14:02:32 139952657219968-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 14:02:32 139952657219968-MainThread INFO task.py:440 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-25 14:02:32 139952657219968-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-10-25 14:02:32 139952657219968-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 14:02:32 139952657219968-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v4镜像开始构建， 时间: 2023-10-25 14:02:32
+2023-10-25 14:02:33 139952657219968-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 14:02:33 139952657219968-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v4镜像开始推送， 时间: 2023-10-25 14:02:33
+2023-10-25 14:03:09 140589228087040-ThreadPoolExecutor-0_8 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698213727970已经不处于运行状态,强制将任务ID:1698213727970从状态:STARTED更新至BUILD_ABORT
+2023-10-25 14:03:09 140589228087040-ThreadPoolExecutor-0_8 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698213747706已经不处于运行状态,强制将任务ID:1698213747706从状态:STARTED更新至BUILD_ABORT
+2023-10-25 14:04:09 140589194516224-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出2个构建进程对象
+2023-10-25 14:04:09 140589194516224-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698213727970对应的进程对象:1698213727970
+2023-10-25 14:04:09 140589194516224-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698213747706对应的进程对象:1698213747706
+2023-10-25 15:28:56 139741789540736-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 15:28:57 139740938475264-ThreadPoolExecutor-0_8 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-25 15:28:57 139740938475264-ThreadPoolExecutor-0_8 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698218936913，任务进程号:358523，将数据库中状态置为STARTED
+2023-10-25 15:29:00 140218844680576-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 15:29:03 140218844680576-MainThread INFO task.py:434 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 15:29:03 140218844680576-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 15:29:03 140218844680576-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 15:29:03 140218844680576-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v7镜像开始构建， 时间: 2023-10-25 15:29:03
+2023-10-25 15:38:11 140218844680576-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 15:38:11 140218844680576-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v7校验镜像大小， 时间: 2023-10-25 15:38:11
+2023-10-25 15:38:12 140218844680576-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 15:38:12 140218844680576-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v7镜像开始推送， 时间: 2023-10-25 15:38:12
+2023-10-25 15:40:35 139741789540736-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 15:40:37 139740351280896-ThreadPoolExecutor-0_13 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-25 15:40:37 139740351280896-ThreadPoolExecutor-0_13 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698219635297，任务进程号:363345，将数据库中状态置为STARTED
+2023-10-25 15:40:41 139858165969280-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 15:40:45 139858165969280-MainThread INFO task.py:434 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 15:40:46 139858165969280-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 15:40:46 139858165969280-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 15:40:46 139858165969280-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v8镜像开始构建， 时间: 2023-10-25 15:40:46
+2023-10-25 15:40:48 139858165969280-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 15:40:48 139858165969280-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v8校验镜像大小， 时间: 2023-10-25 15:40:48
+2023-10-25 15:40:48 139858165969280-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 15:40:48 139858165969280-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v8镜像开始推送， 时间: 2023-10-25 15:40:48
+2023-10-25 15:40:51 139741789540736-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 15:40:52 139740980438784-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-25 15:40:52 139740980438784-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698219651851，任务进程号:363435，将数据库中状态置为STARTED
+2023-10-25 15:40:55 139741789540736-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 15:40:55 140135503524224-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 15:40:57 139740342888192-ThreadPoolExecutor-0_14 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供4构建进程
+2023-10-25 15:40:57 139740342888192-ThreadPoolExecutor-0_14 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698219655501，任务进程号:363508，将数据库中状态置为STARTED
+2023-10-25 15:40:58 139741789540736-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 15:40:59 140135503524224-MainThread INFO task.py:434 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 15:41:00 140135503524224-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 15:41:00 140135503524224-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 15:41:00 140135503524224-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v9镜像开始构建， 时间: 2023-10-25 15:41:00
+2023-10-25 15:41:01 139827271602560-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 15:41:01 140135503524224-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 15:41:01 140135503524224-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v9校验镜像大小， 时间: 2023-10-25 15:41:01
+2023-10-25 15:41:01 140135503524224-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 15:41:01 140135503524224-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v9镜像开始推送， 时间: 2023-10-25 15:41:01
+2023-10-25 15:41:02 139740368066304-ThreadPoolExecutor-0_11 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供4构建进程
+2023-10-25 15:41:02 139740368066304-ThreadPoolExecutor-0_11 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698219658986，任务进程号:363539，将数据库中状态置为STARTED
+2023-10-25 15:41:05 140481801392512-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 15:41:06 139827271602560-MainThread INFO task.py:434 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 15:41:06 139827271602560-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 15:41:06 139827271602560-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 15:41:06 139827271602560-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v10镜像开始构建， 时间: 2023-10-25 15:41:06
+2023-10-25 15:41:08 139827271602560-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 15:41:08 139827271602560-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v10校验镜像大小， 时间: 2023-10-25 15:41:08
+2023-10-25 15:41:08 139827271602560-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 15:41:08 139827271602560-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v10镜像开始推送， 时间: 2023-10-25 15:41:08
+2023-10-25 15:41:09 140481801392512-MainThread INFO task.py:434 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 15:41:09 140481801392512-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 15:41:09 140481801392512-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 15:41:09 140481801392512-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v11镜像开始构建， 时间: 2023-10-25 15:41:09
+2023-10-25 15:41:11 140481801392512-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 15:41:11 140481801392512-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v11校验镜像大小， 时间: 2023-10-25 15:41:11
+2023-10-25 15:41:11 140481801392512-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 15:41:11 140481801392512-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v11镜像开始推送， 时间: 2023-10-25 15:41:11
+2023-10-25 16:00:19 140704528286080-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 16:00:21 140703704790784-ThreadPoolExecutor-0_5 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-25 16:00:21 140703704790784-ThreadPoolExecutor-0_5 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698220819557，任务进程号:372105，将数据库中状态置为STARTED
+2023-10-25 16:00:22 140704528286080-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 16:00:24 139836907966848-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 16:00:26 140703943182080-ThreadPoolExecutor-0_1 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供4构建进程
+2023-10-25 16:00:26 140703943182080-ThreadPoolExecutor-0_1 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698220822756，任务进程号:372140，将数据库中状态置为STARTED
+2023-10-25 16:00:29 139932425294208-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 16:00:32 139836907966848-MainThread INFO task.py:434 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 16:00:32 139836907966848-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 16:00:32 139836907966848-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 16:00:32 139836907966848-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v12镜像开始构建， 时间: 2023-10-25 16:00:32
+2023-10-25 16:00:33 139932425294208-MainThread INFO task.py:434 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 16:00:33 139932425294208-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 16:00:33 139932425294208-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 16:00:33 139932425294208-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v13镜像开始构建， 时间: 2023-10-25 16:00:33
+2023-10-25 16:00:33 139836907966848-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 16:00:33 139836907966848-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v12校验镜像大小， 时间: 2023-10-25 16:00:33
+2023-10-25 16:00:33 139836907966848-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 16:00:33 139836907966848-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v12镜像开始推送， 时间: 2023-10-25 16:00:33
+2023-10-25 16:00:34 139932425294208-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 16:00:34 139932425294208-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v13校验镜像大小， 时间: 2023-10-25 16:00:34
+2023-10-25 16:00:34 139932425294208-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 16:00:34 139932425294208-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v13镜像开始推送， 时间: 2023-10-25 16:00:34
+2023-10-25 16:04:05 140169891996032-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 16:04:08 140169312921344-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-25 16:04:08 140169312921344-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698221045779，任务进程号:373805，将数据库中状态置为STARTED
+2023-10-25 16:04:09 140169891996032-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 16:04:11 139910612316544-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 16:04:12 140169891996032-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 16:04:13 140169296135936-ThreadPoolExecutor-0_2 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有2待处理, 此刻可再提供4构建进程
+2023-10-25 16:04:13 140169296135936-ThreadPoolExecutor-0_2 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698221049619，任务进程号:373838，将数据库中状态置为STARTED
+2023-10-25 16:04:13 140169296135936-ThreadPoolExecutor-0_2 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698221052620，任务进程号:373839，将数据库中状态置为STARTED
+2023-10-25 16:04:15 139686317449600-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 16:04:16 139910612316544-MainThread INFO task.py:434 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 16:04:16 139910612316544-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 16:04:16 139910612316544-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 16:04:16 139910612316544-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v14镜像开始构建， 时间: 2023-10-25 16:04:16
+2023-10-25 16:04:16 140041703117184-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 16:04:17 139910612316544-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 16:04:17 139910612316544-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v14校验镜像大小， 时间: 2023-10-25 16:04:17
+2023-10-25 16:04:17 139910612316544-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 16:04:17 139910612316544-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v14镜像开始推送， 时间: 2023-10-25 16:04:17
+2023-10-25 16:04:20 139686317449600-MainThread INFO task.py:434 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 16:04:20 139686317449600-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 16:04:20 139686317449600-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 16:04:20 139686317449600-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v15镜像开始构建， 时间: 2023-10-25 16:04:20
+2023-10-25 16:04:20 140041703117184-MainThread INFO task.py:434 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 16:04:20 140041703117184-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 16:04:20 140041703117184-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 16:04:20 140041703117184-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v16镜像开始构建， 时间: 2023-10-25 16:04:20
+2023-10-25 16:04:21 139686317449600-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 16:04:21 139686317449600-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v15校验镜像大小， 时间: 2023-10-25 16:04:21
+2023-10-25 16:04:21 139686317449600-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 16:04:21 139686317449600-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v15镜像开始推送， 时间: 2023-10-25 16:04:21
+2023-10-25 16:04:22 140041703117184-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 16:04:22 140041703117184-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v16校验镜像大小， 时间: 2023-10-25 16:04:22
+2023-10-25 16:04:22 140041703117184-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 16:04:22 140041703117184-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v16镜像开始推送， 时间: 2023-10-25 16:04:22
+2023-10-25 16:45:05 139891668283776-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-25 16:45:06 139890532525824-ThreadPoolExecutor-0_10 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-25 16:45:06 139890532525824-ThreadPoolExecutor-0_10 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698223505422，任务进程号:395273，将数据库中状态置为STARTED
+2023-10-25 16:45:09 140614896996736-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 16:45:09 140614896996736-MainThread INFO task.py:440 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-25 16:45:09 140614896996736-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', '.condarc', 'Dockerfile', 'prepare.log']
+2023-10-25 16:45:09 140614896996736-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 16:45:09 140614896996736-MainThread INFO task.py:295 build_image() : lftest:1644镜像开始构建， 时间: 2023-10-25 16:45:09
+2023-10-25 16:45:12 140614896996736-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 16:45:12 140614896996736-MainThread INFO task.py:332 push_image() : lftest:1644镜像开始推送， 时间: 2023-10-25 16:45:12
+2023-10-25 16:45:51 139891055376128-ThreadPoolExecutor-0_4 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698223505422已经不处于运行状态,强制将任务ID:1698223505422从状态:STARTED更新至BUILD_ABORT
+2023-10-25 16:46:51 139891074787072-ThreadPoolExecutor-0_2 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-25 16:46:51 139891074787072-ThreadPoolExecutor-0_2 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698223505422对应的进程对象:1698223505422
+2023-10-25 17:07:58 139664908624256-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 17:09:09 140085078360448-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 17:09:11 140084473583360-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-25 17:09:11 140084473583360-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698224949883，任务进程号:406139，将数据库中状态置为STARTED
+2023-10-25 17:09:14 140535316083072-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 17:09:17 140085078360448-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 17:09:20 140085078360448-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 17:09:20 140535316083072-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 17:09:20 140535316083072-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 17:09:20 140535316083072-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 17:09:20 140535316083072-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v16镜像开始构建， 时间: 2023-10-25 17:09:20
+2023-10-25 17:09:21 140084493256448-ThreadPoolExecutor-0_1 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有2待处理, 此刻可再提供4构建进程
+2023-10-25 17:09:21 140084493256448-ThreadPoolExecutor-0_1 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698224957018，任务进程号:406225，将数据库中状态置为STARTED
+2023-10-25 17:09:21 140084493256448-ThreadPoolExecutor-0_1 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698224960206，任务进程号:406226，将数据库中状态置为STARTED
+2023-10-25 17:09:21 140535316083072-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 17:09:21 140535316083072-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v16校验镜像大小， 时间: 2023-10-25 17:09:21
+2023-10-25 17:09:21 140535316083072-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11GG
+2023-10-25 17:09:24 140574471045504-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 17:09:24 139906443227520-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 17:09:29 140574471045504-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 17:09:29 140574471045504-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 17:09:29 140574471045504-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 17:09:29 140574471045504-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v17镜像开始构建， 时间: 2023-10-25 17:09:29
+2023-10-25 17:09:30 140574471045504-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 17:09:30 140574471045504-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v17校验镜像大小， 时间: 2023-10-25 17:09:30
+2023-10-25 17:09:30 140574471045504-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11GG
+2023-10-25 17:09:31 139906443227520-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 17:09:31 139906443227520-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 17:09:31 139906443227520-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 17:09:31 139906443227520-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v18镜像开始构建， 时间: 2023-10-25 17:09:31
+2023-10-25 17:09:32 139906443227520-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 17:09:32 139906443227520-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v18校验镜像大小， 时间: 2023-10-25 17:09:32
+2023-10-25 17:09:32 139906443227520-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11GG
+2023-10-25 17:09:51 140083965449984-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1698224949883已经不处于运行状态,强制将任务ID:1698224949883从状态:STARTED更新至BUILD_ABORT
+2023-10-25 17:09:51 140083965449984-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1698224957018已经不处于运行状态,强制将任务ID:1698224957018从状态:STARTED更新至BUILD_ABORT
+2023-10-25 17:09:51 140083965449984-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1698224960206已经不处于运行状态,强制将任务ID:1698224960206从状态:STARTED更新至BUILD_ABORT
+2023-10-25 17:10:51 140084481976064-ThreadPoolExecutor-0_2 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出3个构建进程对象
+2023-10-25 17:10:51 140084481976064-ThreadPoolExecutor-0_2 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698224949883对应的进程对象:1698224949883
+2023-10-25 17:10:51 140084481976064-ThreadPoolExecutor-0_2 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698224957018对应的进程对象:1698224957018
+2023-10-25 17:10:51 140084481976064-ThreadPoolExecutor-0_2 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698224960206对应的进程对象:1698224960206
+2023-10-25 17:14:44 139690745897344-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 17:14:47 139690745897344-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 17:14:49 139690168399616-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有2待处理, 此刻可再提供5构建进程
+2023-10-25 17:14:49 139690168399616-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698225284448，任务进程号:408585，将数据库中状态置为STARTED
+2023-10-25 17:14:49 139690168399616-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698225287950，任务进程号:408586，将数据库中状态置为STARTED
+2023-10-25 17:14:52 140434019512704-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 17:14:52 139990271951232-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 17:14:53 139690745897344-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 17:14:54 139690168399616-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供3构建进程
+2023-10-25 17:14:54 139690168399616-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698225293214，任务进程号:408684，将数据库中状态置为STARTED
+2023-10-25 17:14:55 139990271951232-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 17:14:55 139990271951232-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 17:14:55 140434019512704-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 17:14:55 139990271951232-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 17:14:55 139990271951232-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v19镜像开始构建， 时间: 2023-10-25 17:14:55
+2023-10-25 17:14:55 140434019512704-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 17:14:55 140434019512704-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 17:14:55 140434019512704-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v18镜像开始构建， 时间: 2023-10-25 17:14:55
+2023-10-25 17:14:57 140304527380864-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 17:14:57 139990271951232-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 17:14:57 139990271951232-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v19校验镜像大小， 时间: 2023-10-25 17:14:57
+2023-10-25 17:14:57 139990271951232-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 17:14:57 139990271951232-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v19镜像开始推送， 时间: 2023-10-25 17:14:57
+2023-10-25 17:14:57 140434019512704-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 17:14:57 140434019512704-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v18校验镜像大小， 时间: 2023-10-25 17:14:57
+2023-10-25 17:14:57 140434019512704-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 17:14:57 140434019512704-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v18镜像开始推送， 时间: 2023-10-25 17:14:57
+2023-10-25 17:15:00 140304527380864-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 17:15:01 140304527380864-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 17:15:01 140304527380864-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 17:15:01 140304527380864-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v20镜像开始构建， 时间: 2023-10-25 17:15:01
+2023-10-25 17:15:02 140304527380864-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 17:15:02 140304527380864-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v20校验镜像大小， 时间: 2023-10-25 17:15:02
+2023-10-25 17:15:02 140304527380864-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 17:15:02 140304527380864-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v20镜像开始推送， 时间: 2023-10-25 17:15:02
+2023-10-25 17:27:55 140660969832832-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 17:27:57 140660969832832-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-25 17:27:58 140659616892672-ThreadPoolExecutor-0_11 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有2待处理, 此刻可再提供5构建进程
+2023-10-25 17:27:58 140659616892672-ThreadPoolExecutor-0_11 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698226075008，任务进程号:414331，将数据库中状态置为STARTED
+2023-10-25 17:27:58 140659616892672-ThreadPoolExecutor-0_11 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698226077644，任务进程号:414332，将数据库中状态置为STARTED
+2023-10-25 17:28:01 140577350652288-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 17:28:01 139687334723968-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-25 17:28:04 139687334723968-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 17:28:05 139687334723968-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 17:28:05 139687334723968-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 17:28:05 139687334723968-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v22镜像开始构建， 时间: 2023-10-25 17:28:05
+2023-10-25 17:28:05 140577350652288-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-10-25 17:28:05 140577350652288-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-25 17:28:05 140577350652288-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-25 17:28:05 140577350652288-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v21镜像开始构建， 时间: 2023-10-25 17:28:05
+2023-10-25 17:28:06 139687334723968-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 17:28:06 139687334723968-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v22校验镜像大小， 时间: 2023-10-25 17:28:06
+2023-10-25 17:28:06 139687334723968-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 17:28:06 139687334723968-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v22镜像开始推送， 时间: 2023-10-25 17:28:06
+2023-10-25 17:28:06 140577350652288-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-25 17:28:06 140577350652288-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v21校验镜像大小， 时间: 2023-10-25 17:28:06
+2023-10-25 17:28:06 140577350652288-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.11G
+2023-10-25 17:28:06 140577350652288-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v21镜像开始推送， 时间: 2023-10-25 17:28:06
+2023-10-26 13:52:40 140205457715584-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-26 13:52:42 140203419227904-ThreadPoolExecutor-0_19 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 13:52:42 140203419227904-ThreadPoolExecutor-0_19 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698299560210，任务进程号:945730，将数据库中状态置为STARTED
+2023-10-26 13:52:45 140541415940480-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 13:52:45 140541415940480-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-26 13:52:45 140541415940480-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-10-26 13:52:45 140541415940480-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 13:52:45 140541415940480-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v23镜像开始构建， 时间: 2023-10-26 13:52:45
+2023-10-26 13:52:47 140541415940480-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 13:52:47 140541415940480-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v23镜像开始推送， 时间: 2023-10-26 13:52:47
+2023-10-26 13:53:27 140203427620608-ThreadPoolExecutor-0_18 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698299560210已经不处于运行状态,强制将任务ID:1698299560210从状态:STARTED更新至BUILD_ABORT
+2023-10-26 13:54:03 140205457715584-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-26 13:54:07 140204509755136-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 13:54:07 140204509755136-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698299643266，任务进程号:946348，将数据库中状态置为STARTED
+2023-10-26 13:54:10 139750995444096-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 13:54:10 139750995444096-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-26 13:54:10 139750995444096-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'pip.conf', 'get-pip.py', '.condarc', 'Dockerfile', 'prepare.log']
+2023-10-26 13:54:10 139750995444096-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 13:54:10 139750995444096-MainThread INFO task.py:295 build_image() : 10.101.12.128/admin/mzw:v24镜像开始构建， 时间: 2023-10-26 13:54:10
+2023-10-26 13:54:27 140203947706112-ThreadPoolExecutor-0_13 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 13:54:27 140203947706112-ThreadPoolExecutor-0_13 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698299560210对应的进程对象:1698299560210
+2023-10-26 13:54:41 139750995444096-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 13:54:41 139750995444096-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/admin/mzw:v24校验镜像大小， 时间: 2023-10-26 13:54:41
+2023-10-26 13:54:41 139750995444096-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.2G
+2023-10-26 13:54:41 139750995444096-MainThread INFO task.py:332 push_image() : 10.101.12.128/admin/mzw:v24镜像开始推送， 时间: 2023-10-26 13:54:41
+2023-10-26 13:55:27 140203972884224-ThreadPoolExecutor-0_10 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 13:55:27 140203972884224-ThreadPoolExecutor-0_10 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698299643266对应的进程对象:1698299643266
+2023-10-26 14:09:15 140205457715584-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-26 14:09:17 140204476184320-ThreadPoolExecutor-0_7 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 14:09:17 140204476184320-ThreadPoolExecutor-0_7 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698300555782，任务进程号:952734，将数据库中状态置为STARTED
+2023-10-26 14:09:20 140050084147584-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 14:09:20 140050084147584-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-26 14:09:20 140050084147584-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', '.condarc', 'Dockerfile', 'prepare.log']
+2023-10-26 14:09:21 140050084147584-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 14:09:21 140050084147584-MainThread INFO task.py:295 build_image() : lftest:1408镜像开始构建， 时间: 2023-10-26 14:09:21
+2023-10-26 14:09:22 140050084147584-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 14:09:22 140050084147584-MainThread INFO task.py:332 push_image() : lftest:1408镜像开始推送， 时间: 2023-10-26 14:09:22
+2023-10-26 14:09:27 140204459398912-ThreadPoolExecutor-0_9 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698300555782已经不处于运行状态,强制将任务ID:1698300555782从状态:STARTED更新至BUILD_ABORT
+2023-10-26 14:10:27 140204881266432-ThreadPoolExecutor-0_0 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 14:10:27 140204881266432-ThreadPoolExecutor-0_0 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698300555782对应的进程对象:1698300555782
+2023-10-26 14:19:23 140205457715584-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-26 14:19:27 140203427620608-ThreadPoolExecutor-0_18 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 14:19:27 140203427620608-ThreadPoolExecutor-0_18 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698301163934，任务进程号:957267，将数据库中状态置为STARTED
+2023-10-26 14:19:30 140470893334912-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 14:19:30 140470893334912-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-26 14:19:30 140470893334912-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-10-26 14:19:30 140470893334912-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 14:19:30 140470893334912-MainThread INFO task.py:295 build_image() : lftest:1419镜像开始构建， 时间: 2023-10-26 14:19:30
+2023-10-26 14:19:32 140470893334912-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 14:19:32 140470893334912-MainThread INFO task.py:332 push_image() : lftest:1419镜像开始推送， 时间: 2023-10-26 14:19:32
+2023-10-26 14:20:27 140203436013312-ThreadPoolExecutor-0_17 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698301163934已经不处于运行状态,强制将任务ID:1698301163934从状态:STARTED更新至BUILD_ABORT
+2023-10-26 14:21:20 140205457715584-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-20.04.list
+2023-10-26 14:21:27 140203972884224-ThreadPoolExecutor-0_10 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 14:21:27 140203972884224-ThreadPoolExecutor-0_10 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698301163934对应的进程对象:1698301163934
+2023-10-26 14:21:44 140205457715584-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-10-26 14:21:47 140204492969728-ThreadPoolExecutor-0_5 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 14:21:47 140204492969728-ThreadPoolExecutor-0_5 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698301304573，任务进程号:958263，将数据库中状态置为STARTED
+2023-10-26 14:21:50 140026440106368-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 14:21:50 140026440106368-MainThread INFO task.py:421 init_conda_environment() : 由于需要安装conda的软件，需要更新update为True， 之前的update参数为: False
+2023-10-26 14:21:50 140026440106368-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-26 14:21:57 140026440106368-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'pip.conf', 'get-pip.py', '.condarc', 'Anaconda3-5.3.1-Linux-x86_64.sh', 'Dockerfile', 'prepare.log']
+2023-10-26 14:21:57 140026440106368-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 14:21:57 140026440106368-MainThread INFO task.py:295 build_image() : lftest:1420镜像开始构建， 时间: 2023-10-26 14:21:57
+2023-10-26 14:25:33 140026440106368-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 14:25:33 140026440106368-MainThread INFO task.py:332 push_image() : lftest:1420镜像开始推送， 时间: 2023-10-26 14:25:33
+2023-10-26 14:26:27 140203956098816-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698301304573已经不处于运行状态,强制将任务ID:1698301304573从状态:STARTED更新至BUILD_ABORT
+2023-10-26 14:27:27 140203939313408-ThreadPoolExecutor-0_14 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 14:27:27 140203939313408-ThreadPoolExecutor-0_14 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698301304573对应的进程对象:1698301304573
+2023-10-26 15:19:10 140500207534464-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-26 15:19:15 140498597549824-ThreadPoolExecutor-0_17 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 15:19:15 140498597549824-ThreadPoolExecutor-0_17 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698304750422，任务进程号:983689，将数据库中状态置为STARTED
+2023-10-26 15:19:18 140593804194176-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 15:19:18 140593804194176-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-26 15:19:18 140593804194176-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-10-26 15:19:18 140593804194176-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 15:19:18 140593804194176-MainThread INFO task.py:295 build_image() : lftest:mzw镜像开始构建， 时间: 2023-10-26 15:19:18
+2023-10-26 15:19:19 140593804194176-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 15:19:19 140593804194176-MainThread INFO task.py:332 push_image() : lftest:mzw镜像开始推送， 时间: 2023-10-26 15:19:19
+2023-10-26 15:19:40 140499209922304-ThreadPoolExecutor-0_9 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: 111, 镜像构建任务构建进程1698304750422已经不处于运行状态,强制将任务ID:1698304750422从状态:STARTED更新至BUILD_ABORT
+2023-10-26 15:20:40 140499610887936-ThreadPoolExecutor-0_2 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 15:20:40 140499610887936-ThreadPoolExecutor-0_2 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698304750422对应的进程对象:1698304750422
+2023-10-26 15:28:28 140500207534464-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-26 15:28:30 140499619280640-ThreadPoolExecutor-0_1 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 15:28:30 140499619280640-ThreadPoolExecutor-0_1 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698305308005，任务进程号:987744，将数据库中状态置为STARTED
+2023-10-26 15:28:33 140228356436352-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 15:28:33 140228356436352-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-26 15:28:33 140228356436352-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-10-26 15:28:33 140228356436352-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 15:28:33 140228356436352-MainThread INFO task.py:295 build_image() : mzw:v24镜像开始构建， 时间: 2023-10-26 15:28:33
+2023-10-26 15:28:34 140228356436352-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 15:28:34 140228356436352-MainThread INFO task.py:332 push_image() : mzw:v24镜像开始推送， 时间: 2023-10-26 15:28:34
+2023-10-26 15:28:40 140499602495232-ThreadPoolExecutor-0_3 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698305308005已经不处于运行状态,强制将任务ID:1698305308005从状态:STARTED更新至BUILD_ABORT
+2023-10-26 15:29:40 140499627673344-ThreadPoolExecutor-0_0 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 15:29:40 140499627673344-ThreadPoolExecutor-0_0 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698305308005对应的进程对象:1698305308005
+2023-10-26 16:18:20 140500207534464-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: Centos-8.repo
+2023-10-26 16:18:20 140498631120640-ThreadPoolExecutor-0_13 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 16:18:20 140498631120640-ThreadPoolExecutor-0_13 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698308300152，任务进程号:1009084，将数据库中状态置为STARTED
+2023-10-26 16:18:23 140141581558144-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 16:18:23 140141581558144-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-10-26 16:18:23 140141581558144-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'Centos-8.repo', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-26 16:18:23 140141581558144-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 16:18:23 140141581558144-MainThread INFO task.py:295 build_image() : centos8:v1镜像开始构建， 时间: 2023-10-26 16:18:23
+2023-10-26 16:25:28 140141581558144-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 16:25:28 140141581558144-MainThread INFO task.py:322 _target_image_size_valid() : centos8:v1校验镜像大小， 时间: 2023-10-26 16:25:28
+2023-10-26 16:25:28 140141581558144-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.34G
+2023-10-26 16:25:28 140141581558144-MainThread INFO task.py:332 push_image() : centos8:v1镜像开始推送， 时间: 2023-10-26 16:25:28
+2023-10-26 16:30:04 140500207534464-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-26 16:30:05 140498639513344-ThreadPoolExecutor-0_12 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 16:30:05 140498639513344-ThreadPoolExecutor-0_12 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698309004088，任务进程号:1014271，将数据库中状态置为STARTED
+2023-10-26 16:30:08 140300502905216-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 16:30:40 140499243493120-ThreadPoolExecutor-0_5 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698309004088已经不处于运行状态,强制将任务ID:1698309004088从状态:STARTED更新至BUILD_ABORT
+2023-10-26 16:42:46 139775536902528-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-26 16:42:48 139774702626560-ThreadPoolExecutor-0_6 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 16:42:48 139774702626560-ThreadPoolExecutor-0_6 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698309766057，任务进程号:1019619，将数据库中状态置为STARTED
+2023-10-26 16:42:51 140199400841600-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 16:43:30 139775536902528-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-26 16:43:33 139773670848256-ThreadPoolExecutor-0_15 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698309766057已经不处于运行状态,强制将任务ID:1698309766057从状态:STARTED更新至BUILD_ABORT
+2023-10-26 16:43:33 139774736197376-ThreadPoolExecutor-0_2 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供4构建进程
+2023-10-26 16:43:33 139774736197376-ThreadPoolExecutor-0_2 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698309810801，任务进程号:1020096，将数据库中状态置为STARTED
+2023-10-26 16:43:36 139807157375360-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 16:44:33 139774694233856-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 16:44:33 139774694233856-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698309766057对应的进程对象:1698309766057
+2023-10-26 16:44:33 139774694233856-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1698309810801已经不处于运行状态,强制将任务ID:1698309810801从状态:STARTED更新至BUILD_ABORT
+2023-10-26 16:45:26 139775536902528-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: Centos-8.repo
+2023-10-26 16:45:28 139774157362944-ThreadPoolExecutor-0_14 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 16:45:28 139774157362944-ThreadPoolExecutor-0_14 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698309926585，任务进程号:1020884，将数据库中状态置为STARTED
+2023-10-26 16:45:31 140411429044608-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 16:45:31 140411429044608-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-10-26 16:45:32 140411429044608-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'Centos-8.repo', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-26 16:45:32 140411429044608-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 16:45:32 140411429044608-MainThread INFO task.py:295 build_image() : 10.101.12.128/base/centos8:v1镜像开始构建， 时间: 2023-10-26 16:45:32
+2023-10-26 16:45:33 140411429044608-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 16:45:33 140411429044608-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/base/centos8:v1校验镜像大小， 时间: 2023-10-26 16:45:33
+2023-10-26 16:45:33 140411429044608-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.34G
+2023-10-26 16:45:33 140411429044608-MainThread INFO task.py:332 push_image() : 10.101.12.128/base/centos8:v1镜像开始推送， 时间: 2023-10-26 16:45:33
+2023-10-26 16:45:33 139774165755648-ThreadPoolExecutor-0_13 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 16:45:33 139774165755648-ThreadPoolExecutor-0_13 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698309810801对应的进程对象:1698309810801
+2023-10-26 16:49:49 139775536902528-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-10-26 16:49:53 139773637277440-ThreadPoolExecutor-0_19 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 16:49:53 139773637277440-ThreadPoolExecutor-0_19 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698310189783，任务进程号:1022758，将数据库中状态置为STARTED
+2023-10-26 16:49:56 140655148564864-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 16:49:56 140655148564864-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-26 16:49:56 140655148564864-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-10-26 16:49:56 140655148564864-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 16:49:56 140655148564864-MainThread INFO task.py:295 build_image() : lftest:1649镜像开始构建， 时间: 2023-10-26 16:49:56
+2023-10-26 16:51:38 140655148564864-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 16:51:38 140655148564864-MainThread INFO task.py:322 _target_image_size_valid() : lftest:1649校验镜像大小， 时间: 2023-10-26 16:51:38
+2023-10-26 16:51:38 140655148564864-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.5G
+2023-10-26 16:51:38 140655148564864-MainThread INFO task.py:332 push_image() : lftest:1649镜像开始推送， 时间: 2023-10-26 16:51:38
+2023-10-26 16:52:33 139774702626560-ThreadPoolExecutor-0_6 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 16:52:33 139774702626560-ThreadPoolExecutor-0_6 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698310189783对应的进程对象:1698310189783
+2023-10-26 16:56:33 139774702626560-ThreadPoolExecutor-0_6 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 16:56:33 139774702626560-ThreadPoolExecutor-0_6 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698309926585对应的进程对象:1698309926585
+2023-10-26 16:58:10 139775536902528-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: CentOS7-Base-163.repo
+2023-10-26 16:58:15 139775536902528-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: CentOS7-Base-163.repo
+2023-10-26 16:58:45 139775536902528-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: Centos-8.repo
+2023-10-26 16:58:48 139773670848256-ThreadPoolExecutor-0_15 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 16:58:48 139773670848256-ThreadPoolExecutor-0_15 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698310725884，任务进程号:1026467，将数据库中状态置为STARTED
+2023-10-26 16:58:51 140634216178048-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 16:58:51 140634216178048-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-10-26 16:58:51 140634216178048-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Centos-8.repo', 'pip.conf', 'get-pip.py', '.condarc', 'Dockerfile', 'prepare.log']
+2023-10-26 16:58:51 140634216178048-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 16:58:51 140634216178048-MainThread INFO task.py:295 build_image() : lftest:1656镜像开始构建， 时间: 2023-10-26 16:58:51
+2023-10-26 17:00:38 140634216178048-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 17:00:38 140634216178048-MainThread INFO task.py:322 _target_image_size_valid() : lftest:1656校验镜像大小， 时间: 2023-10-26 17:00:38
+2023-10-26 17:00:38 140634216178048-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.51G
+2023-10-26 17:00:38 140634216178048-MainThread INFO task.py:332 push_image() : lftest:1656镜像开始推送， 时间: 2023-10-26 17:00:38
+2023-10-26 17:01:33 139774694233856-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-10-26 17:01:33 139774694233856-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1698310725884对应的进程对象:1698310725884
+2023-10-26 17:14:46 140182729363840-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: Centos-8.repo
+2023-10-26 17:14:51 140182049232640-ThreadPoolExecutor-0_4 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-26 17:14:51 140182049232640-ThreadPoolExecutor-0_4 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698311686911，任务进程号:1033448，将数据库中状态置为STARTED
+2023-10-26 17:14:54 139660306166144-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-26 17:14:54 139660306166144-MainThread INFO task.py:469 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-10-26 17:14:54 139660306166144-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'Centos-8.repo', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-26 17:14:54 139660306166144-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-26 17:14:54 139660306166144-MainThread INFO task.py:295 build_image() : 10.101.12.128/base/centos8:test镜像开始构建， 时间: 2023-10-26 17:14:54
+2023-10-26 17:14:56 139660306166144-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-26 17:14:56 139660306166144-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/base/centos8:test校验镜像大小， 时间: 2023-10-26 17:14:56
+2023-10-26 17:14:56 139660306166144-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.34G
+2023-10-26 17:14:56 139660306166144-MainThread INFO task.py:332 push_image() : 10.101.12.128/base/centos8:test镜像开始推送， 时间: 2023-10-26 17:14:56
+2023-10-27 12:21:54 140600560603520-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: Centos-8.repo
+2023-10-27 12:21:58 140599915181824-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-27 12:21:58 140599915181824-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698380514353，任务进程号:1525698，将数据库中状态置为STARTED
+2023-10-27 12:22:01 140406105952640-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-27 12:22:01 140406105952640-MainThread INFO task.py:470 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-10-27 12:22:02 140406105952640-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'Centos-8.repo', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-27 12:22:02 140406105952640-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-27 12:22:02 140406105952640-MainThread INFO task.py:295 build_image() : centos8:v11镜像开始构建， 时间: 2023-10-27 12:22:02
+2023-10-27 12:22:03 140406105952640-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-27 12:22:03 140406105952640-MainThread INFO task.py:322 _target_image_size_valid() : centos8:v11校验镜像大小， 时间: 2023-10-27 12:22:03
+2023-10-27 12:22:03 140406105952640-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.34G
+2023-10-27 12:22:03 140406105952640-MainThread INFO task.py:332 push_image() : centos8:v11镜像开始推送， 时间: 2023-10-27 12:22:03
+2023-10-27 12:23:34 140600560603520-MainThread INFO task.py:264 check_package_source_match() : 配置的包管理源文件信息为: Centos-8.repo
+2023-10-27 12:23:38 140599277631232-ThreadPoolExecutor-0_11 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-10-27 12:23:38 140599277631232-ThreadPoolExecutor-0_11 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1698380614407，任务进程号:1526399，将数据库中状态置为STARTED
+2023-10-27 12:23:41 140424023503232-MainThread INFO task.py:82 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-10-27 12:23:41 140424023503232-MainThread INFO task.py:470 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-10-27 12:23:42 140424023503232-MainThread INFO task.py:341 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'Centos-8.repo', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-10-27 12:23:42 140424023503232-MainThread INFO task.py:137 build() : 开始构建镜像...
+2023-10-27 12:23:42 140424023503232-MainThread INFO task.py:295 build_image() : 10.101.12.128/base/centos8:v11镜像开始构建， 时间: 2023-10-27 12:23:42
+2023-10-27 12:23:43 140424023503232-MainThread INFO task.py:147 push() : 开始推送镜像...
+2023-10-27 12:23:43 140424023503232-MainThread INFO task.py:322 _target_image_size_valid() : 10.101.12.128/base/centos8:v11校验镜像大小， 时间: 2023-10-27 12:23:43
+2023-10-27 12:23:43 140424023503232-MainThread INFO task.py:324 _target_image_size_valid() : 镜像大小为1.34G
+2023-10-27 12:23:43 140424023503232-MainThread INFO task.py:332 push_image() : 10.101.12.128/base/centos8:v11镜像开始推送， 时间: 2023-10-27 12:23:43
+2023-11-17 09:59:45 140577976824192-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-11-17 09:59:47 140575948924672-ThreadPoolExecutor-0_18 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-17 09:59:47 140575948924672-ThreadPoolExecutor-0_18 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700186385007，任务进程号:2248707，将数据库中状态置为STARTED
+2023-11-17 09:59:49 140569464791424-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 09:59:53 140569464791424-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-11-17 09:59:54 140569464791424-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 09:59:54 140569464791424-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 09:59:54 140569464791424-MainThread INFO task.py:293 build_image() : 10.101.12.128/admin/mzw:v1镜像开始构建， 时间: 2023-11-17 09:59:54
+2023-11-17 10:00:52 140577976824192-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-11-17 10:00:52 140577031059200-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供4构建进程
+2023-11-17 10:00:52 140577031059200-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700186452243，任务进程号:2249169，将数据库中状态置为STARTED
+2023-11-17 10:00:54 140210288816512-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 10:01:02 140210288816512-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-11-17 10:01:02 140210288816512-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 10:01:02 140210288816512-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 10:01:02 140210288816512-MainThread INFO task.py:293 build_image() : meizw/aa:v1镜像开始构建， 时间: 2023-11-17 10:01:02
+2023-11-17 10:04:55 140569464791424-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 10:04:55 140569464791424-MainThread INFO task.py:320 _target_image_size_valid() : 10.101.12.128/admin/mzw:v1校验镜像大小， 时间: 2023-11-17 10:04:55
+2023-11-17 10:04:55 140569464791424-MainThread INFO task.py:322 _target_image_size_valid() : 镜像大小为1.12G
+2023-11-17 10:04:55 140569464791424-MainThread INFO task.py:330 push_image() : 10.101.12.128/admin/mzw:v1镜像开始推送， 时间: 2023-11-17 10:04:55
+2023-11-17 10:05:17 140577031059200-ThreadPoolExecutor-0_3 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700186385007已经不处于运行状态,强制将任务ID:1700186385007从状态:STARTED更新至BUILD_ABORT
+2023-11-17 10:05:51 140210288816512-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 10:05:51 140210288816512-MainThread INFO task.py:320 _target_image_size_valid() : meizw/aa:v1校验镜像大小， 时间: 2023-11-17 10:05:51
+2023-11-17 10:05:51 140210288816512-MainThread INFO task.py:322 _target_image_size_valid() : 镜像大小为1.12G
+2023-11-17 10:05:51 140210288816512-MainThread INFO task.py:330 push_image() : meizw/aa:v1镜像开始推送， 时间: 2023-11-17 10:05:51
+2023-11-17 10:06:17 140576485795584-ThreadPoolExecutor-0_11 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-17 10:06:17 140576485795584-ThreadPoolExecutor-0_11 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700186385007对应的进程对象:1700186385007
+2023-11-17 10:06:17 140576485795584-ThreadPoolExecutor-0_11 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700186452243已经不处于运行状态,强制将任务ID:1700186452243从状态:STARTED更新至BUILD_ABORT
+2023-11-17 10:15:27 139704290394496-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 10:15:32 139703340758784-ThreadPoolExecutor-0_4 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-17 10:15:32 139703340758784-ThreadPoolExecutor-0_4 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700187327776，任务进程号:2255268，将数据库中状态置为STARTED
+2023-11-17 10:15:34 140005635289472-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 10:15:48 140005635289472-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-11-17 10:15:48 140005635289472-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 10:15:48 140005635289472-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 10:15:48 140005635289472-MainThread INFO task.py:293 build_image() : meizw/aa:v1镜像开始构建， 时间: 2023-11-17 10:15:48
+2023-11-17 10:16:49 140286779584896-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 10:16:49 140286201034496-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供4构建进程
+2023-11-17 10:16:49 140286201034496-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700187409293，任务进程号:2255811，将数据库中状态置为STARTED
+2023-11-17 10:16:51 140559800009088-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 10:16:57 140559800009088-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 10:16:57 140559800009088-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 10:16:57 140559800009088-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 10:16:57 140559800009088-MainThread INFO task.py:293 build_image() : meizw/aa:v1镜像开始构建， 时间: 2023-11-17 10:16:57
+2023-11-17 10:17:44 140285946345216-ThreadPoolExecutor-0_6 INFO schedule_update_task.py:29 release_problem_task_resource() : 此刻FastBuild数据库中正在运行的构建任务id: 1700187327776, 但FastBuild系统中找不到对应的进程，强制将任务ID:1700187327776从状态:STARTED更新至BUILD_ABORT
+2023-11-17 10:23:43 140286779584896-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 10:23:44 140285375936256-ThreadPoolExecutor-0_9 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供4构建进程
+2023-11-17 10:23:44 140285375936256-ThreadPoolExecutor-0_9 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700187823166，任务进程号:2258650，将数据库中状态置为STARTED
+2023-11-17 10:23:46 140622600032640-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 10:23:52 140622600032640-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 10:23:52 140622600032640-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 10:23:52 140622600032640-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 10:23:52 140622600032640-MainThread INFO task.py:293 build_image() : meizw/aa:v2镜像开始构建， 时间: 2023-11-17 10:23:52
+2023-11-17 10:24:40 140559800009088-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 10:24:40 140559800009088-MainThread INFO task.py:330 push_image() : meizw/aa:v1镜像开始推送， 时间: 2023-11-17 10:24:40
+2023-11-17 10:25:23 140622600032640-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 10:25:23 140622600032640-MainThread INFO task.py:330 push_image() : meizw/aa:v2镜像开始推送， 时间: 2023-11-17 10:25:23
+2023-11-17 10:27:44 140284830672640-ThreadPoolExecutor-0_17 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700187823166已经不处于运行状态,强制将任务ID:1700187823166从状态:STARTED更新至BUILD_ABORT
+2023-11-17 10:28:30 140286779584896-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 10:28:34 140285963130624-ThreadPoolExecutor-0_4 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供4构建进程
+2023-11-17 10:28:34 140285963130624-ThreadPoolExecutor-0_4 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700188110770，任务进程号:2260610，将数据库中状态置为STARTED
+2023-11-17 10:28:36 139927977525632-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 10:28:39 139927977525632-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 10:28:40 139927977525632-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 10:28:40 139927977525632-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 10:28:40 139927977525632-MainThread INFO task.py:293 build_image() : meizw/aa:v2镜像开始构建， 时间: 2023-11-17 10:28:40
+2023-11-17 10:28:44 140285342365440-ThreadPoolExecutor-0_13 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-17 10:28:44 140285342365440-ThreadPoolExecutor-0_13 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700187823166对应的进程对象:1700187823166
+2023-11-17 10:30:10 139927977525632-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 10:30:10 139927977525632-MainThread INFO task.py:330 push_image() : meizw/aa:v2镜像开始推送， 时间: 2023-11-17 10:30:10
+2023-11-17 10:30:44 140284830672640-ThreadPoolExecutor-0_17 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700188110770已经不处于运行状态,强制将任务ID:1700188110770从状态:STARTED更新至BUILD_ABORT
+2023-11-17 10:31:07 140042191389056-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 10:31:12 140041613100800-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供4构建进程
+2023-11-17 10:31:12 140041613100800-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700188267613，任务进程号:2261758，将数据库中状态置为STARTED
+2023-11-17 10:31:13 140372075118976-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 10:31:19 140372075118976-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 10:31:19 140372075118976-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 10:31:19 140372075118976-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 10:31:19 140372075118976-MainThread INFO task.py:293 build_image() : meizw/aa:v3镜像开始构建， 时间: 2023-11-17 10:31:19
+2023-11-17 10:32:02 140041579005696-ThreadPoolExecutor-0_4 INFO schedule_update_task.py:29 release_problem_task_resource() : 此刻FastBuild数据库中正在运行的构建任务id: 1700187409293, 但FastBuild系统中找不到对应的进程，强制将任务ID:1700187409293从状态:STARTED更新至BUILD_ABORT
+2023-11-17 10:32:49 140372075118976-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 10:32:49 140372075118976-MainThread INFO task.py:330 push_image() : meizw/aa:v3镜像开始推送， 时间: 2023-11-17 10:32:49
+2023-11-17 10:33:02 140041613100800-ThreadPoolExecutor-0_0 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700188267613已经不处于运行状态,强制将任务ID:1700188267613从状态:STARTED更新至BUILD_ABORT
+2023-11-17 10:33:36 140042191389056-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 10:33:37 140041587398400-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-17 10:33:37 140041587398400-ThreadPoolExecutor-0_3 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700188416990，任务进程号:2262845，将数据库中状态置为STARTED
+2023-11-17 10:33:38 139789893792128-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 10:33:44 139789893792128-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 10:33:44 139789893792128-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 10:33:44 139789893792128-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 10:33:44 139789893792128-MainThread INFO task.py:293 build_image() : meizw/aa:v4镜像开始构建， 时间: 2023-11-17 10:33:44
+2023-11-17 10:34:02 140040025929472-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-17 10:34:02 140040025929472-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700188267613对应的进程对象:1700188267613
+2023-11-17 10:35:14 139789893792128-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 10:35:14 139789893792128-MainThread INFO task.py:330 push_image() : meizw/aa:v4镜像开始推送， 时间: 2023-11-17 10:35:14
+2023-11-17 10:36:02 140040520836864-ThreadPoolExecutor-0_17 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700188416990已经不处于运行状态,强制将任务ID:1700188416990从状态:STARTED更新至BUILD_ABORT
+2023-11-17 10:37:02 140041082885888-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-17 10:37:02 140041082885888-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700188416990对应的进程对象:1700188416990
+2023-11-17 10:39:47 139988547711360-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 10:39:50 139987969419008-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-17 10:39:50 139987969419008-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700188787222，任务进程号:2265451，将数据库中状态置为STARTED
+2023-11-17 10:39:52 139829174333824-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 10:39:58 139829174333824-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 10:39:58 139829174333824-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 10:39:58 139829174333824-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 10:39:58 139829174333824-MainThread INFO task.py:293 build_image() : meizw/aa:v4镜像开始构建， 时间: 2023-11-17 10:39:58
+2023-11-17 10:41:29 139829174333824-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 10:41:29 139829174333824-MainThread INFO task.py:330 push_image() : meizw/aa:v4镜像开始推送， 时间: 2023-11-17 10:41:29
+2023-11-17 10:41:40 139986607273728-ThreadPoolExecutor-0_16 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700188787222已经不处于运行状态,强制将任务ID:1700188787222从状态:STARTED更新至BUILD_ABORT
+2023-11-17 10:42:40 139986582095616-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-17 10:42:40 139986582095616-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700188787222对应的进程对象:1700188787222
+2023-11-17 10:52:26 140466539905408-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 10:52:28 140465890387712-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-17 10:52:28 140465890387712-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700189546445，任务进程号:2270627，将数据库中状态置为STARTED
+2023-11-17 10:52:30 140512941793664-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 10:52:37 140512941793664-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 10:52:37 140512941793664-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 10:52:37 140512941793664-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 10:52:37 140512941793664-MainThread INFO task.py:293 build_image() : meizw/aa:v5镜像开始构建， 时间: 2023-11-17 10:52:37
+2023-11-17 10:54:08 140512941793664-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 10:54:08 140512941793664-MainThread INFO task.py:330 push_image() : meizw/aa:v5镜像开始推送， 时间: 2023-11-17 10:54:08
+2023-11-17 10:54:18 140464799860480-ThreadPoolExecutor-0_16 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700189546445已经不处于运行状态,强制将任务ID:1700189546445从状态:STARTED更新至BUILD_ABORT
+2023-11-17 10:55:18 140464783075072-ThreadPoolExecutor-0_18 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-17 10:55:18 140464783075072-ThreadPoolExecutor-0_18 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700189546445对应的进程对象:1700189546445
+2023-11-17 11:00:40 140328767140224-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 11:00:42 140328121394944-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-17 11:00:42 140328121394944-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700190040941，任务进程号:2274060，将数据库中状态置为STARTED
+2023-11-17 11:00:43 140112082157952-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 11:00:55 140112082157952-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 11:00:55 140112082157952-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 11:00:55 140112082157952-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 11:00:55 140112082157952-MainThread INFO task.py:293 build_image() : meizw/aa:v6镜像开始构建， 时间: 2023-11-17 11:00:55
+2023-11-17 11:02:26 140112082157952-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 11:02:26 140112082157952-MainThread INFO task.py:330 push_image() : meizw/aa:v6镜像开始推送， 时间: 2023-11-17 11:02:26
+2023-11-17 11:02:37 140326966646528-ThreadPoolExecutor-0_16 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700190040941已经不处于运行状态,强制将任务ID:1700190040941从状态:STARTED更新至BUILD_ABORT
+2023-11-17 11:03:37 140328070776576-ThreadPoolExecutor-0_6 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-17 11:03:37 140328070776576-ThreadPoolExecutor-0_6 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700190040941对应的进程对象:1700190040941
+2023-11-17 11:06:54 140556067496320-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 11:06:56 140555422004992-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-17 11:06:56 140555422004992-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700190414188，任务进程号:2276636，将数据库中状态置为STARTED
+2023-11-17 11:06:58 140302653608320-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 11:07:04 140302653608320-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 11:07:05 140302653608320-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 11:07:05 140302653608320-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 11:07:05 140302653608320-MainThread INFO task.py:293 build_image() : meizw/aa:v7镜像开始构建， 时间: 2023-11-17 11:07:05
+2023-11-17 11:08:35 140302653608320-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 11:08:35 140302653608320-MainThread INFO task.py:330 push_image() : meizw/aa:v7镜像开始推送， 时间: 2023-11-17 11:08:35
+2023-11-17 11:08:41 140554272761600-ThreadPoolExecutor-0_15 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700190414188已经不处于运行状态,强制将任务ID:1700190414188从状态:STARTED更新至BUILD_ABORT
+2023-11-17 11:09:41 140554792847104-ThreadPoolExecutor-0_10 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-17 11:09:41 140554792847104-ThreadPoolExecutor-0_10 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700190414188对应的进程对象:1700190414188
+2023-11-17 11:12:40 140130072297856-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 11:12:44 140129494009600-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-17 11:12:44 140129494009600-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700190760747，任务进程号:2279071，将数据库中状态置为STARTED
+2023-11-17 11:12:46 140183271690624-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 11:12:52 140183271690624-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 11:12:53 140183271690624-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 11:12:53 140183271690624-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 11:12:53 140183271690624-MainThread INFO task.py:293 build_image() : meizw/aa:v8镜像开始构建， 时间: 2023-11-17 11:12:53
+2023-11-17 11:14:23 140183271690624-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 11:14:23 140183271690624-MainThread INFO task.py:330 push_image() : meizw/aa:v8镜像开始推送， 时间: 2023-11-17 11:14:23
+2023-11-17 11:14:29 140129280718592-ThreadPoolExecutor-0_1 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700190760747已经不处于运行状态,强制将任务ID:1700190760747从状态:STARTED更新至BUILD_ABORT
+2023-11-17 11:15:29 140128173405952-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-17 11:15:29 140128173405952-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700190760747对应的进程对象:1700190760747
+2023-11-17 11:25:50 140403033584000-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 11:25:51 140402455295744-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-17 11:25:51 140402455295744-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700191550107，任务进程号:2285049，将数据库中状态置为STARTED
+2023-11-17 11:25:52 140146492969344-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 11:26:03 140146492969344-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 11:26:03 140146492969344-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 11:26:04 140146492969344-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 11:26:04 140146492969344-MainThread INFO task.py:293 build_image() : meizw/aa:v9镜像开始构建， 时间: 2023-11-17 11:26:04
+2023-11-17 11:27:33 140146492969344-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 11:27:33 140146492969344-MainThread INFO task.py:330 push_image() : meizw/aa:v9镜像开始推送， 时间: 2023-11-17 11:27:33
+2023-11-17 11:27:41 140401440700160-ThreadPoolExecutor-0_15 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700191550107已经不处于运行状态,强制将任务ID:1700191550107从状态:STARTED更新至BUILD_ABORT
+2023-11-17 11:28:40 140400929007360-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-17 11:28:40 140400929007360-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700191550107对应的进程对象:1700191550107
+2023-11-17 12:45:26 140649668477312-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-17 12:45:31 140649089926912-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-17 12:45:31 140649089926912-ThreadPoolExecutor-0_0 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700196326667，任务进程号:2317850，将数据库中状态置为STARTED
+2023-11-17 12:45:33 139990279029120-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-17 12:45:36 139990279029120-MainThread INFO task.py:468 init_default_python_environment() : 为本次FastBuild构建镜像，为pip和conda安装器初始化默认的Python版本元组信息:('3', '7', '14')
+2023-11-17 12:45:36 139990279029120-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-17 12:45:36 139990279029120-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-17 12:45:36 139990279029120-MainThread INFO task.py:293 build_image() : meizw/aa:v9镜像开始构建， 时间: 2023-11-17 12:45:36
+2023-11-17 12:47:08 139990279029120-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-17 12:47:08 139990279029120-MainThread INFO task.py:330 push_image() : meizw/aa:v9镜像开始推送， 时间: 2023-11-17 12:47:08
+2023-11-17 12:47:26 140648543930112-ThreadPoolExecutor-0_9 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: mzw, 镜像构建任务构建进程1700196326667已经不处于运行状态,强制将任务ID:1700196326667从状态:STARTED更新至BUILD_ABORT
+2023-11-17 12:48:26 140647914772224-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-17 12:48:26 140647914772224-ThreadPoolExecutor-0_19 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700196326667对应的进程对象:1700196326667
+2023-11-20 09:40:30 139805523480960-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-11-20 09:40:34 139803735619328-ThreadPoolExecutor-0_14 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-20 09:40:34 139803735619328-ThreadPoolExecutor-0_14 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700444430197，任务进程号:4022817，将数据库中状态置为STARTED
+2023-11-20 09:40:36 140539063914880-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-20 09:40:44 140539063914880-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-11-20 09:40:44 140539063914880-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-20 09:40:44 140539063914880-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-20 09:40:44 140539063914880-MainThread INFO task.py:293 build_image() : meizw/aa:v12镜像开始构建， 时间: 2023-11-20 09:40:44
+2023-11-20 09:40:45 140539063914880-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-20 09:40:45 140539063914880-MainThread INFO task.py:320 _target_image_size_valid() : meizw/aa:v12校验镜像大小， 时间: 2023-11-20 09:40:45
+2023-11-20 09:40:45 140539063914880-MainThread INFO task.py:322 _target_image_size_valid() : 镜像大小为1.12G
+2023-11-20 09:40:45 140539063914880-MainThread INFO task.py:330 push_image() : meizw/aa:v12镜像开始推送， 时间: 2023-11-20 09:40:45
+2023-11-20 09:51:09 139804230526720-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-20 09:51:09 139804230526720-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700444430197对应的进程对象:1700444430197
+2023-11-20 09:53:15 139805523480960-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-11-20 09:53:19 139804842899200-ThreadPoolExecutor-0_4 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-20 09:53:19 139804842899200-ThreadPoolExecutor-0_4 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700445195454，任务进程号:4028427，将数据库中状态置为STARTED
+2023-11-20 09:53:21 140250407072128-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-20 09:53:30 140250407072128-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-11-20 09:53:31 140250407072128-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-20 09:53:31 140250407072128-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-20 09:53:31 140250407072128-MainThread INFO task.py:293 build_image() : meizw/aa:v13镜像开始构建， 时间: 2023-11-20 09:53:31
+2023-11-20 09:53:32 140250407072128-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-20 09:53:32 140250407072128-MainThread INFO task.py:320 _target_image_size_valid() : meizw/aa:v13校验镜像大小， 时间: 2023-11-20 09:53:32
+2023-11-20 09:53:32 140250407072128-MainThread INFO task.py:322 _target_image_size_valid() : 镜像大小为1.12G
+2023-11-20 09:53:47 140250407072128-MainThread INFO task.py:330 push_image() : meizw/aa:v13镜像开始推送， 时间: 2023-11-20 09:53:47
+2023-11-20 09:56:09 139804238919424-ThreadPoolExecutor-0_11 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-20 09:56:09 139804238919424-ThreadPoolExecutor-0_11 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700445195454对应的进程对象:1700445195454
+2023-11-20 16:29:43 140619406750080-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-20 16:29:45 140617690638080-ThreadPoolExecutor-0_14 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-20 16:29:45 140617690638080-ThreadPoolExecutor-0_14 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700468983114，任务进程号:2600，将数据库中状态置为STARTED
+2023-11-20 16:29:47 139976572121472-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-20 16:29:55 139976572121472-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-11-20 16:29:55 139976572121472-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-11-20 16:29:55 139976572121472-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-20 16:29:55 139976572121472-MainThread INFO task.py:293 build_image() : meizw/aa:v4镜像开始构建， 时间: 2023-11-20 16:29:55
+2023-11-20 16:29:57 139976572121472-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-20 16:29:57 139976572121472-MainThread INFO task.py:330 push_image() : meizw/aa:v4镜像开始推送， 时间: 2023-11-20 16:29:57
+2023-11-20 16:30:15 140618227508992-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1700468983114已经不处于运行状态,强制将任务ID:1700468983114从状态:STARTED更新至BUILD_ABORT
+2023-11-20 16:31:15 140617690638080-ThreadPoolExecutor-0_14 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-20 16:31:15 140617690638080-ThreadPoolExecutor-0_14 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700468983114对应的进程对象:1700468983114
+2023-11-20 16:35:45 140619406750080-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-11-20 16:35:50 140618202330880-ThreadPoolExecutor-0_10 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-20 16:35:50 140618202330880-ThreadPoolExecutor-0_10 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700469345710，任务进程号:5205，将数据库中状态置为STARTED
+2023-11-20 16:35:52 140532880368000-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-20 16:36:04 140532880368000-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-11-20 16:36:04 140532880368000-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'Dockerfile', 'prepare.log']
+2023-11-20 16:36:04 140532880368000-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-20 16:36:04 140532880368000-MainThread INFO task.py:293 build_image() : meizw/aa:v4镜像开始构建， 时间: 2023-11-20 16:36:04
+2023-11-20 16:39:33 140532880368000-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-20 16:39:33 140532880368000-MainThread INFO task.py:320 _target_image_size_valid() : meizw/aa:v4校验镜像大小， 时间: 2023-11-20 16:39:33
+2023-11-20 16:39:33 140532880368000-MainThread INFO task.py:322 _target_image_size_valid() : 镜像大小为1.13G
+2023-11-20 16:39:33 140532880368000-MainThread INFO task.py:330 push_image() : meizw/aa:v4镜像开始推送， 时间: 2023-11-20 16:39:33
+2023-11-20 16:41:15 140618185545472-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-20 16:41:15 140618185545472-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700469345710对应的进程对象:1700469345710
+2023-11-22 15:51:51 140475686338944-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-11-22 15:51:53 140474891368192-ThreadPoolExecutor-0_1 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-22 15:51:53 140474891368192-ThreadPoolExecutor-0_1 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700639511910，任务进程号:1236310，将数据库中状态置为STARTED
+2023-11-22 15:51:55 140421011227008-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-22 15:52:02 140421011227008-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-11-22 15:52:02 140421011227008-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'ubuntu-18.04.list', 'Dockerfile', 'prepare.log']
+2023-11-22 15:52:02 140421011227008-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-22 15:52:02 140421011227008-MainThread INFO task.py:293 build_image() : meizw/aa:v5镜像开始构建， 时间: 2023-11-22 15:52:02
+2023-11-22 15:56:40 140475686338944-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-11-22 15:56:43 140473817626368-ThreadPoolExecutor-0_15 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供4构建进程
+2023-11-22 15:56:43 140473817626368-ThreadPoolExecutor-0_15 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700639800438，任务进程号:1238440，将数据库中状态置为STARTED
+2023-11-22 15:56:44 139645265801600-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-22 15:56:49 139645265801600-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-11-22 15:56:50 139645265801600-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-22 15:56:50 139645265801600-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-22 15:56:50 139645265801600-MainThread INFO task.py:293 build_image() : meizw/aa:v15镜像开始构建， 时间: 2023-11-22 15:56:50
+2023-11-22 15:56:51 139645265801600-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-22 15:56:51 139645265801600-MainThread INFO task.py:320 _target_image_size_valid() : meizw/aa:v15校验镜像大小， 时间: 2023-11-22 15:56:51
+2023-11-22 15:56:51 139645265801600-MainThread INFO task.py:322 _target_image_size_valid() : 镜像大小为1.12G
+2023-11-22 15:56:51 139645265801600-MainThread INFO task.py:330 push_image() : meizw/aa:v15镜像开始推送， 时间: 2023-11-22 15:56:51
+2023-11-22 15:57:18 140474320926464-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-22 15:57:18 140474320926464-ThreadPoolExecutor-0_12 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700639800438对应的进程对象:1700639800438
+2023-11-22 15:58:59 140421011227008-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-22 15:58:59 140421011227008-MainThread INFO task.py:320 _target_image_size_valid() : meizw/aa:v5校验镜像大小， 时间: 2023-11-22 15:58:59
+2023-11-22 15:58:59 140421011227008-MainThread INFO task.py:322 _target_image_size_valid() : 镜像大小为1.2G
+2023-11-22 15:58:59 140421011227008-MainThread INFO task.py:330 push_image() : meizw/aa:v5镜像开始推送， 时间: 2023-11-22 15:58:59
+2023-11-22 16:01:18 140473817626368-ThreadPoolExecutor-0_15 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-22 16:01:18 140473817626368-ThreadPoolExecutor-0_15 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700639511910对应的进程对象:1700639511910
+2023-11-23 16:37:12 140596352070016-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-23 16:37:17 140594940733184-ThreadPoolExecutor-0_10 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-23 16:37:17 140594940733184-ThreadPoolExecutor-0_10 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700728632857，任务进程号:1908763，将数据库中状态置为STARTED
+2023-11-23 16:37:19 140142175740288-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-23 16:37:26 140142175740288-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-11-23 16:37:26 140142175740288-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-11-23 16:37:26 140142175740288-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-23 16:37:26 140142175740288-MainThread INFO task.py:293 build_image() : meizw/aa:v6镜像开始构建， 时间: 2023-11-23 16:37:26
+2023-11-23 16:37:28 140142175740288-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-23 16:37:28 140142175740288-MainThread INFO task.py:330 push_image() : meizw/aa:v6镜像开始推送， 时间: 2023-11-23 16:37:28
+2023-11-23 16:37:32 140595536320256-ThreadPoolExecutor-0_4 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1700728632857已经不处于运行状态,强制将任务ID:1700728632857从状态:STARTED更新至BUILD_ABORT
+2023-11-23 16:38:28 140596352070016-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: 
+2023-11-23 16:38:32 140595527927552-ThreadPoolExecutor-0_5 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-23 16:38:32 140595527927552-ThreadPoolExecutor-0_5 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700728632857对应的进程对象:1700728632857
+2023-11-23 16:38:32 140594412254976-ThreadPoolExecutor-0_16 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-23 16:38:32 140594412254976-ThreadPoolExecutor-0_16 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700728708339，任务进程号:1909319，将数据库中状态置为STARTED
+2023-11-23 16:38:34 140215412429184-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-23 16:38:37 140215412429184-MainThread INFO task.py:441 init_python_environment() : 由于用户未使用源码安装python3，使用镜像检测结果的python3来更新pip和conda的依赖版本元组: ('3', '7', '14')
+2023-11-23 16:38:37 140215412429184-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Dockerfile', 'prepare.log']
+2023-11-23 16:38:37 140215412429184-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-23 16:38:37 140215412429184-MainThread INFO task.py:293 build_image() : meizw/aa:v7镜像开始构建， 时间: 2023-11-23 16:38:37
+2023-11-23 16:38:38 140215412429184-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-23 16:38:38 140215412429184-MainThread INFO task.py:330 push_image() : meizw/aa:v7镜像开始推送， 时间: 2023-11-23 16:38:38
+2023-11-23 16:39:32 140595511142144-ThreadPoolExecutor-0_7 INFO schedule_update_task.py:56 release_problem_task_resource() : 数据库处于运行状态的任务: , 镜像构建任务构建进程1700728708339已经不处于运行状态,强制将任务ID:1700728708339从状态:STARTED更新至BUILD_ABORT
+2023-11-23 16:40:32 140594898769664-ThreadPoolExecutor-0_15 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-23 16:40:32 140594898769664-ThreadPoolExecutor-0_15 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700728708339对应的进程对象:1700728708339
+2023-11-23 17:04:31 140106567508352-MainThread INFO task.py:262 check_package_source_match() : 配置的包管理源文件信息为: ubuntu-18.04.list
+2023-11-23 17:04:34 140105389963008-ThreadPoolExecutor-0_6 INFO schedule_commit_task.py:40 start_image_build_task() : FastBuild数据库中有1待处理, 此刻可再提供5构建进程
+2023-11-23 17:04:34 140105389963008-ThreadPoolExecutor-0_6 INFO schedule_commit_task.py:62 start_image_build_task() : 启动任务，id: 1700730271628，任务进程号:1925014，将数据库中状态置为STARTED
+2023-11-23 17:04:36 140438077051264-MainThread INFO task.py:81 pull() : 拉取基础镜像: {self.image_descriptor.target_image_name}
+2023-11-23 17:04:39 140438077051264-MainThread INFO task.py:435 init_python_environment() : 由于用户配置要使用源码安装python_cfg.target， 更新pip和conda的依赖Python版本元组: f('3', '7', '14')
+2023-11-23 17:04:39 140438077051264-MainThread INFO task.py:339 _list_work_dir() : 在工作目录下共有如下文件列表： 
+    ['pull.log', 'check.log', 'Front_end_request_json', 'raw_json', 'Python-3.7.14.tgz', 'ubuntu-18.04.list', 'start.sh', 'Dockerfile', 'prepare.log']
+2023-11-23 17:04:39 140438077051264-MainThread INFO task.py:136 build() : 开始构建镜像...
+2023-11-23 17:04:39 140438077051264-MainThread INFO task.py:293 build_image() : meizw/aa:v16镜像开始构建， 时间: 2023-11-23 17:04:39
+2023-11-23 17:04:41 140438077051264-MainThread INFO task.py:145 push() : 开始推送镜像...
+2023-11-23 17:04:41 140438077051264-MainThread INFO task.py:330 push_image() : meizw/aa:v16镜像开始推送， 时间: 2023-11-23 17:04:41
+2023-11-23 17:04:59 140105347999488-ThreadPoolExecutor-0_11 INFO schedule_update_task.py:67 release_end_task_resource() : 从内存中从task_map中移除出1个构建进程对象
+2023-11-23 17:04:59 140105347999488-ThreadPoolExecutor-0_11 INFO schedule_update_task.py:70 release_end_task_resource() : 从内存中删除1700730271628对应的进程对象:1700730271628
