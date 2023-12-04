@@ -56,7 +56,7 @@ function install_env_requirement {
 function start_services {
     # 启动后端程序
     cd $backend_dir
-    nohup python $backend_dir/main.py > Fastbuild_Backend.log 2>&1 &=
+    nohup python $backend_dir/main.py > Fastbuild_Backend.log 2>&1 &
     # 启动Nginx前端服务
     $nginx_dir/sbin/nginx -s reload
 }
