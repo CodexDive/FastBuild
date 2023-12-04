@@ -17,6 +17,7 @@ frontend_dir="$work_dir/Web"
 backend_dir="$work_dir/Backend"
 nginx_dir="$work_dir/nginx"
 nginx_setup="$nginx_dir/setup"
+mkdir -p $nginx_setup
 
 port="48001"
 
@@ -144,7 +145,7 @@ function uninstall {
     pkill -f "python $backend_dir/main.py"
 
     # 移除nginx
-    sudo rm -rf $nginx_dir
+    sudo rm -rf $nginx_dir $nginx_setup
 }
 
 
