@@ -104,7 +104,7 @@ function load_install_nginx {
     wget "http://nginx.org/download/nginx-1.21.5.tar.gz"
     tar -zxvf nginx-1.21.5.tar.gz
     cd nginx-1.21.5
-    ./configure --prefix=$nginx_dir --user=fastbuild --group=fastbuild --with-http_ssl_module --with-http_stub_status_module --with-http_gzip_static_module --with-pcre
+    ./configure --prefix=$nginx_dir  --with-http_ssl_module --with-http_stub_status_module --with-http_gzip_static_module --with-pcre
     make
     sudo make install
 }
