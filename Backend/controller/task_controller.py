@@ -205,7 +205,7 @@ async def delete_task_by_task_id(task_id: int):
     if not task_record:
         return Response.error(msg=f"任务id<{task_id}>任务不存在")
     # 校验任务终态
-    if task_record.state in "BUILD_FAILED , PUSH_FAILED , BUILD_ABORT":
+    if task_record.state not in "BUILD_FAILED , PUSH_SUCCESS , PUSH_FAILED , BUILD_ABORT":
         return Response.error(msg=f"任务id<{task_id}>任务仍在进行，无法删除")
 
     DBTaskService.del_task(task_record)
