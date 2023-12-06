@@ -104,7 +104,7 @@ function load_install_nginx {
     wget "http://nginx.org/download/nginx-1.21.5.tar.gz"
     tar -zxvf nginx-1.21.5.tar.gz
     cd nginx-1.21.5
-    ./configure --prefix=$nginx_dir  --with-http_ssl_module --with-http_stub_status_module --with-http_gzip_static_module --with-pcre
+    ./configure --prefix=$nginx_dir --user=fastbuild --group=fastbuild --with-http_ssl_module --with-http_stub_status_module --with-http_gzip_static_module --with-pcre
     make
     sudo make install
 }
@@ -112,20 +112,10 @@ function load_install_nginx {
 
 function configure_nginx {
     # 修改Nginx配置文件
-    sed -i "$i\
-    server {\
-        listen $port;\
-        server_name localhost;\
-        \
-        location / {\
-            root $frontend_dir/dist;\
-            index index.html;\
-        }\
-        location /api {\
-            proxy_pass  http://127.0.0.1:40002;\
-        }\
-    }" $nginx_dir/conf/nginx.conf
+    cp $frontend_dir/nginx.conf $nginx_dir/conf/nginx.conf
 
+    # 替换$port和$frontend_dir
+    sed -i "s|\$port|${port}|g; s|\$frontend_dir|${frontend_dir}|g" $nginx_dir/conf/nginx.conf
 
     # 检查Nginx配置文件语法
     $nginx_dir/sbin/nginx -t
@@ -145,7 +135,8 @@ function uninstall {
     pkill -f "python $backend_dir/main.py"
 
     # 移除nginx
-    sudo rm -rf $nginx_dir $nginx_setup
+    
+    sudo rm -rf $nginx_dir nginx-1.21.5  nginx-1.21.5.tar.gz
 }
 
 
