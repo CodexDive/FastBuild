@@ -11,7 +11,7 @@ Step1. git clone https://github.com/CodexDive/FastBuild.git
 
 Step2. cd FastBuild
 
-Step3. By default, use the fb-test.ini configuration file. Please modify the path, port, and IP address in it
+Step3. By default, use the fb-test.ini configuration file. Please modify the path, port, and IP address in it    & 配置个人仓库/harbor
 
 Step4. Copy source and tools to the location specified by fb-test.ini
 
