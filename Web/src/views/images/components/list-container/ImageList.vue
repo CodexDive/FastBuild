@@ -36,7 +36,7 @@
       <template v-if="column.dataIndex === 'operate'">
         <a-button
           v-if="record.type !== 'Base'"
-          class="ml--15"
+          class="ml--16"
           type="link"
           danger
           @click="handleDelete(record)"

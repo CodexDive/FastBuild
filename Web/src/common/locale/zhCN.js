@@ -12,6 +12,8 @@ export const messageCn = {
 
   TargetImage: '目标镜像',
   ImageName: '镜像名称',
+  ImageNameExtra:
+    '构建生成的镜像将根据镜像名称自动推送至指定仓库，请根据 fb.ini 中的仓库配置，正确输入镜像名称的仓库前缀',
   ImageVersion: '镜像版本',
   ImageDesc: '镜像描述',
   InteractiveMethods: '交互方式',

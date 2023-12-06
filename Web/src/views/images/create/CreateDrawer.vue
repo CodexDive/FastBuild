@@ -23,7 +23,7 @@
           <PrismEditor v-model:code="imageInfoText" readonly language="text"></PrismEditor>
         </div>
 
-        <a-form-item :label="$t('ImageName')" name="repoName">
+        <a-form-item :label="$t('ImageName')" name="repoName" :extra="$t('ImageNameExtra')">
           <a-input
             v-model:value="formModel.repoName"
             show-count
