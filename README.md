@@ -11,4 +11,8 @@ Step1. git clone https://github.com/CodexDive/FastBuild.git
 
 Step2. cd FastBuild
 
-Step3. bash fastbuid.sh --install
+Step3. By default, use the fb-test.ini configuration file. Please modify the path, port, and IP address in it
+
+Step4. Copy source and tools to the location specified by fb-test.ini
+
+Step5. bash fastbuid.sh --install
